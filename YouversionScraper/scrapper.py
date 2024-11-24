@@ -404,8 +404,9 @@ def run_all():
     print(f"All threads have finished. Program took: {elapsed_time} seconds( {elapsed_time//60} mins to run {len(versions_to_run)} versions.)")
 
 if __name__ == "__main__":
-    run_all()
-    """    #version = str(input("What version do you want? "))
+    # run_all()
+    version = str(input("What version do you want? "))
+    """
     #run(version)
     #print(letterSet)
     #run("AMP")
